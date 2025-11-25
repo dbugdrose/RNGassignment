@@ -44,9 +44,8 @@ function rndStudentTeacher(studentsAndTeachers) {
 rndStudentTeacherBtn.addEventListener("click", () => {
     getData().then((studentsAndTeachers) => {
         let randomStudentTeacher = rndStudentTeacher(studentsAndTeachers);
-        studentList.push(randomStudentTeacher);
-        if (studentList.length > 5) { studentList.shift(); }
-        console.log(studentList)
+        studentList.unshift(randomStudentTeacher);
+        if (studentList.length > 5) { studentList.pop(); }
 
         firstName.innerText = randomStudentTeacher.firstName;
         lastName.innerText = randomStudentTeacher.lastName;
