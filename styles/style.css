@@ -1,21 +1,20 @@
 body {
-    background-color: #4e9e7f;
     background-color: #bfc6cc;
     color: white;
-text-align: center;
+    text-align: center;
 }
 
 .infoPanel {
-display: grid;
- grid-template-columns: 1fr 1fr;
- gap: 30px;
-   font-family: "Schoolbell", cursive;
-  font-weight: 400;
-  font-style: normal;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .rndStudentTeacherBtn {
-    background-color:#143227;
+    background-color: #143227;
     border-radius: 15px;
     color: white;
     font-family: "Schoolbell", cursive;
@@ -23,26 +22,27 @@ display: grid;
 }
 
 h1 {
-font-family: "Playwrite NZ Guides", cursive;
-  font-weight: 400;
-  font-style: normal;
-  border: 8px solid #b0884f;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px #2a2a2a,
-  inset 0 10px 8px -10px #2a2a2a,
-inset 0 -10px 8px -10px #2a2a2a;
-  background-color: #205843;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    font-family: "Playwrite NZ Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border: 8px solid #b0884f;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #2a2a2a,
+        inset 0 10px 8px -10px #2a2a2a,
+        inset 0 -10px 8px -10px #2a2a2a;
+    background-color: #205843;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.rndStudent, .lastStudents {
-    background-color:#185b42;
+.rndStudent,
+.lastStudents {
+    background-color: #185b42;
     border-radius: 15px;
-  box-shadow: 5px 5px 5px #2a2a2a,
-  inset 0 10px 8px -10px #2a2a2a,
-inset 0 -10px 8px -10px #2a2a2a;
+    box-shadow: 5px 5px 5px #2a2a2a,
+        inset 0 10px 8px -10px #2a2a2a,
+        inset 0 -10px 8px -10px #2a2a2a;
     border: 8px solid #b0884f;
     font-size: 20px;
 }
@@ -80,79 +80,85 @@ inset 0 -10px 8px -10px #2a2a2a;
 }
 
 .chalk {
-position: relative;
-bottom: 0;
-right: 30px;
+    position: relative;
+    bottom: 0;
+    right: 30px;
 }
 
 
 .chalk1 {
-position: relative;
-height: 10px;
-left: 8px;
-bottom: -10px;
-width: 30px;
-background-color: white;
-box-shadow: inset 0 10px 8px -10px black,
-inset 0 -10px 8px -10px black,
-3px 3px 3px #1d1d1d;
+    position: relative;
+    height: 10px;
+    left: 8px;
+    bottom: -10px;
+    width: 30px;
+    background-color: white;
+    box-shadow: inset 0 10px 8px -10px black,
+        inset 0 -10px 8px -10px black,
+        3px 3px 3px #1d1d1d;
 
 }
 
 .chalk2 {
-position: relative;
-height: 10px;
-left: -5px;
-bottom: -10px;
-height: 10px;
-width: 40px;
-background-color: white;
-box-shadow: inset 0 10px 8px -10px black,
-inset 0 -10px 8px -10px black,
-1px 2px 5px #242424;
+    position: relative;
+    height: 10px;
+    left: -5px;
+    bottom: -10px;
+    height: 10px;
+    width: 40px;
+    background-color: white;
+    box-shadow: inset 0 10px 8px -10px black,
+        inset 0 -10px 8px -10px black,
+        1px 2px 5px #242424;
 }
 
 .chalk3 {
- position: absolute;
-left: -25px;
-bottom: 5px;
-height: 10px;
-width: 30px;
-transform: rotate(-35deg);
-background-color: white;
-box-shadow: inset 0 10px 8px -10px black,
-inset 0 -10px 8px -10px black,
-3px 3px 3px #1d1d1d;   
+    position: absolute;
+    left: -25px;
+    bottom: 5px;
+    height: 10px;
+    width: 30px;
+    transform: rotate(-35deg);
+    background-color: white;
+    box-shadow: inset 0 10px 8px -10px black,
+        inset 0 -10px 8px -10px black,
+        3px 3px 3px #1d1d1d;
 }
 
-@media (max-width: 768px){
-.infoPanel {
- grid-template-columns: 1fr;
-}
+@media (max-width: 768px) {
+    .infoPanel {
+        grid-template-columns: 1fr;
+    }
 
-.rndStudentH1 {
-    order: 1;
-}
+    .rndStudentH1 {
+        order: 1;
+    }
 
-.rndStudent {
-    order: 2;
-}
-.lastFiveH1 {
-    order: 3;
-}
-.lastStudent0 {
-    order:4;
-}
-.lastStudent1 {
-    order:5;
-}
-.lastStudent2 {
-    order:6;
-}
-.lastStudent3 {
-    order:7;
-}
-.lastStudent4 {
-    order:8;
-}
+    .rndStudent {
+        order: 2;
+    }
+
+    .lastFiveH1 {
+        order: 3;
+    }
+
+    .lastStudent0 {
+        order: 4;
+    }
+
+    .lastStudent1 {
+        order: 5;
+    }
+
+    .lastStudent2 {
+        order: 6;
+    }
+
+    .lastStudent3 {
+        order: 7;
+    }
+
+    .lastStudent4 {
+        order: 8;
+    }
 }
